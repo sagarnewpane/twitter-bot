@@ -19,5 +19,6 @@ def main():
     bot.start_bot('img_with_quotes.jpg',quote.get_quote()[0])
     
 if __name__ == '__main__':
-    main()
-    time.sleep(60*60)
+    while True:
+        main()
+        time.sleep(60*60)
