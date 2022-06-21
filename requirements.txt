@@ -1,0 +1,5 @@
+tweepy
+requests
+bs4
+Pillow
+random
